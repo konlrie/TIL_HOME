@@ -15,12 +15,12 @@ def hello_world():
 def mulcam():
     return '20층 스카이라운지!'
 
-@app.route('/dday')
-def dday():
-    today = datetime.now()
-    new_year = datetime(2020, 1, 1)
-    result = new_year - today
-    return f'<h1>더 성숙해지기까지 {result.days}일 남았습니다!</h1>'
+# @app.route('/dday')
+# def dday():
+#     today = datetime.now()
+#     new_year = datetime(2020, 1, 1)
+#     result = new_year - today
+#     return f'<h1>더 성숙해지기까지 {result.days}일 남았습니다!</h1>'
 
 # 인사해주는 페이지
 # @app.route('/greeting/<string:name>')
